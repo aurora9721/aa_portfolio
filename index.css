@@ -291,6 +291,16 @@ input[type='checkbox'] {
 
 /* ~~~~~~~~ toggle IMAGE BACKGROUNDS ~~~~~~~~~~ */
 
+#tog01{
+    background-image: url(images/insitu_4.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+#tog01:hover {
+  background-image: none;
+}
+
 #tog0{
     background-image: url(images/dwellers_4.gif);
     background-position: center; /* Center the image */
@@ -494,6 +504,17 @@ b:hover {
     padding-left: 2vw;
     padding-right: 2vw;
   }
+
+    #tog01{
+        background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/insitu_4.jpg);
+        background-blend-mode: darken;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+    }
+    #tog01:hover {
+      background: black;
+    }
 
   #tog0{
       background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/dwellers_4.gif);
